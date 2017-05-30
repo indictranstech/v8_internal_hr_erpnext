@@ -1,7 +1,7 @@
 // Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
 // License: GNU General Public License v3. See license.txt
 {% include "erpnext/public/js/controllers/accounts.js" %}
-
+{% include "internalhr/custom_js_method.js" %}
 cur_frm.add_fetch('employee', 'company', 'company');
 cur_frm.add_fetch('company', 'default_letter_head', 'letter_head');
 
